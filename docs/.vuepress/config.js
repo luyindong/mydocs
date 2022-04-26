@@ -1,4 +1,5 @@
 module.exports = {
+    "base": "/docs/",
     title: 'VuePress',
     description: 'Just playing around',
     head: [
