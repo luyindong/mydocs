@@ -6,16 +6,10 @@
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
-  "main": "index.js",
   "repository": "https://github.com/luyindong/mydocs.git",
   "author": "luyindong <1515738619@163.com>",
   "license": "MIT",
-  "dependencies": {
-    "@vuepress/plugin-active-header-links": "^1.9.7",
-    "@vuepress/plugin-back-to-top": "^1.9.7",
-    "@vuepress/plugin-medium-zoom": "^1.9.7",
-    "@vuepress/plugin-nprogress": "^1.9.7",
-    "vuepress": "^1.9.7",
-    "vuepress-plugin-code-copy": "^1.0.6"
+  "devDependencies": {
+    "vuepress": "^1.9.7"
   }
 }

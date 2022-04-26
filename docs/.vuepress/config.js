@@ -1,11 +1,10 @@
 module.exports = {
-    "base": "/docs/",
+    base: "/mydocs/",
     title: 'VuePress',
     description: 'Just playing around',
     head: [
         ['link', { rel: 'icon', href: '/assets/img/icon.webp' }]
     ],
-    plugins: ['@vuepress/nprogress', '@vuepress/active-header-links', '@vuepress/back-to-top', '@vuepress/medium-zoom', ['vuepress-plugin-code-copy', true]],
     themeConfig: {
         logo: '/assets/img/logo.png',
         nav: [
