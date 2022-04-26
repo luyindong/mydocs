@@ -1,7 +1,10 @@
 module.exports = {
     title: 'VuePress',
     description: 'Just playing around',
-    plugins: ['@vuepress/nprogress'],
+    head: [
+        ['link', { rel: 'icon', href: '/assets/img/icon.webp' }]
+    ],
+    plugins: ['@vuepress/nprogress', '@vuepress/active-header-links', '@vuepress/back-to-top', '@vuepress/medium-zoom', ['vuepress-plugin-code-copy', true]],
     themeConfig: {
         logo: '/assets/img/logo.png',
         nav: [
@@ -12,8 +15,8 @@ module.exports = {
                 text: 'Languages',
                 ariaLabel: 'Language Menu',
                 items: [
-                  { text: 'Chinese', link: '/language/chinese/' },
-                  { text: 'Japanese', link: '/language/japanese/' },
+                    { text: 'Chinese', link: '/language/chinese/' },
+                    { text: 'Japanese', link: '/language/japanese/' },
                 ]
             }
         ],
